@@ -1,0 +1,122 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    overflow: hidden;
+}
+
+.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myslider {
+    margin: -10px 10% 0 10%;
+}
+
+.carousel-indicators {
+    margin-bottom: -10px;
+}
+
+#basic_information,
+#ability,
+#practice,
+#hobby {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.container:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+}
+
+#basic_information .ziliao ul {
+    list-style-type: none;
+}
+
+#basic_information .divider {
+    width: 80%;
+}
+
+#basic_information .jianjie {
+    padding: 0 10% 2% 10%;
+}
+
+#basic_information .row li {
+    margin-left: -20px;
+}
+
+#basic_information #aolei {
+    opacity: 0.1;
+}
+
+#ability .nengli,
+#hobby .aihao {
+    padding: 10%;
+}
+
+#ability .head-ability,
+#hobby .head-hobby {
+    padding-top: 43px;
+}
+
+#practice .head-practice {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#basic_information #photo {
+    position: absolute;
+    z-index: 1000;
+    top: 31px;
+    margin-left: 31px;
+    opacity: 0.9;
+}
+
+#practice ul {
+    list-style-type: none;
+}
+
+#practice li {
+    margin-left: -10px;
+}
+
+#practice .panel:hover {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+}
+
+#practice img:hover {
+    opacity: 0.9;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+}
+
+#practice .panel,
+#practice .panel-footer {
+    background-color: transparent;
+}
+
+@media(max-width:992px) {
+    #practice li {
+        margin-left: -40px;
+    }
+}
+
+@media(max-width:768px) {
+    #basic_information .row li {
+        margin-left: -40px;
+    }
+}
