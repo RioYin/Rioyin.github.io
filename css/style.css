@@ -52,8 +52,22 @@
     margin-left: -20px;
 }
 
+#basic_information .touxiang{
+    position: relative;
+}
+
 #basic_information #aolei {
     opacity: 0.1;
+}
+
+#basic_information #photo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    opacity: 0.9;
 }
 
 #ability .nengli,
@@ -69,14 +83,6 @@
 #practice .head-practice {
     padding-top: 25px;
     padding-bottom: 25px;
-}
-
-#basic_information #photo {
-    position: absolute;
-    z-index: 1000;
-    top: 31px;
-    margin-left: 31px;
-    opacity: 0.9;
 }
 
 #practice ul {
